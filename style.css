@@ -1,0 +1,42 @@
+body {
+  background: #0f1419;
+  color: white;
+  font-family: Arial;
+}
+
+.page {
+  display: none;
+  padding: 20px;
+}
+
+.page.active {
+  display: block;
+}
+
+.card {
+  max-width: 400px;
+  margin: 100px auto;
+  background: #1a2332;
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.error {
+  color: red;
+  display: none;
+}
+.error.active {
+  display: block;
+}

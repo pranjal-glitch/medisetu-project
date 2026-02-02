@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medisetu</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LOGIN PAGE -->
+<div id="login-page" class="page active">
+  <div class="card">
+    <h2>Patient Login</h2>
+
+    <input id="patient-id" placeholder="Enter Patient ID">
+    <p id="error" class="error">Please enter Patient ID</p>
+
+    <button id="loginBtn" class="btn">Continue</button>
+  </div>
+</div>
+
+<!-- REPORTS PAGE -->
+<div id="reports-page" class="page">
+  <h2>Reports</h2>
+  <p id="welcome"></p>
+
+  <button id="logoutBtn" class="btn">Logout</button>
+
+  <div id="reports-list"></div>
+</div>
+
+<!-- DETAIL PAGE -->
+<div id="detail-page" class="page">
+  <button id="backBtn" class="btn">Back</button>
+  <div id="detail"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
